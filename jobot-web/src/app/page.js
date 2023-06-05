@@ -55,7 +55,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Jobot</title>
+        <title>Jobot- Your friendly neighborhood AI</title>
       </Head>
       <div className="flex flex-col h-screen">
         {/* Navbar */}
