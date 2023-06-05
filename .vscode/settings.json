@@ -1,5 +1,8 @@
 {
-    "eslint.workingDirectories": [
-        "./jobot-web"
-    ]
+  "eslint.workingDirectories": ["./jobot-web"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
