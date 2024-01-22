@@ -88,7 +88,7 @@ export default function Home() {
 
   return (
     <>
-      <Script src="/static/script.js"></Script>
+      <Script src="/script.js"></Script>
       <Head>
         <title>Jobot- Your friendly neighborhood AI</title>
       </Head>
