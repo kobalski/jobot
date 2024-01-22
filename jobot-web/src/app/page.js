@@ -88,6 +88,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <script type="text/javascript" src="/static/script.js"></script>
         <title>Jobot- Your friendly neighborhood AI</title>
       </Head>
       <div className="flex flex-col h-screen">
