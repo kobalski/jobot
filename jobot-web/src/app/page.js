@@ -4,6 +4,7 @@ import { useState } from "react";
 import Head from "next/head";
 import ReactMarkdown from "react-markdown";
 import { createParser } from "eventsource-parser";
+import Script from "next/script";
 
 export default function Home() {
   const [apiKey, setApiKey] = useState("");
@@ -88,7 +89,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <script type="text/javascript" src="/static/script.js"></script>
+        <Script src="/static/script.js"></Script>
         <title>Jobot- Your friendly neighborhood AI</title>
       </Head>
       <div className="flex flex-col h-screen">
